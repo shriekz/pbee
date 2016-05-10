@@ -80,13 +80,11 @@ This was a tough one, some of the examples and extensions were tried but they di
 [SOLVED]25. Add the code to GIT
 
 git init
-git add *
-git add app/design/frontend/pbee/status.txt
-git add -A # adds all changes and new files recursively.
-git status
 git remote add origin https://github.com/shriekz/pbee.git
-git push -u origin master
-
+git add -A # adds all changes and new files recursively.
+git commit -m 'Added n'
+git push
+git status
 
 26. Explore other sites to see how the shop feature should look like.
 
