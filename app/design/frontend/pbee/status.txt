@@ -74,19 +74,32 @@ To invoke a cms/block from inside another block, the block needs to be added to 
 [SOLVED]24. Add slider into the page.
 Done. Once 23 was solved, it was a piece of cake.
 
-Add the code to GIT
+[SOLVED]25. Add testimonials.
+This was a tough one, some of the examples and extensions were tried but they did not work. Currently, what seems to be working is that, i have put in an extension called Manv's testimonial slider and in that I am using the carouFredSel jQuery plugin to show it on the screen. Additionally, since jQuery does not work well with other libraries, the code needed to have a modification done so that rather than $, it is using the jQuery() function.
 
-23. Add the free shipping tag line into the header
+25. Add the code to GIT
 
-24. Add footer, look at wonderboxx and copy.
+git init
+git add *
+git status
+git remote add origin https://github.com/shriekz/pbee.git
+git push -u origin master
+
+
+26. Explore other sites to see how the shop feature should look like.
+
+27. Remove the categories from Nav and just have shop instead there.
+
+28. Add the free shipping tag line into the header
+
+29. Add footer, look at wonderboxx and copy.
 
 25. Add CMS pages for FAQ, Terms and Conditions, Privacy policy
-
-[SOLVED]26. Add testimonials.
-This was a tough one, some of the examples and extensions were tried but they did not work. Currently, what seems to be working is that, i have put in an extension called Manv's testimonial slider and in that I am using the carouFredSel jQuery plugin to show it on the screen. Additionally, since jQuery does not work well with other libraries, the code needed to have a modification done so that rather than $, it is using the jQuery() function.
 
 Need to add relevant styles for the testimonials.
 
 27. The three grid @ top "Why purple bee" etc.. to be added
 
 28. Get the header icons in shape
+
+29. Remove Magento from link name
