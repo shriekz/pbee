@@ -1,0 +1,46 @@
+/* 1. CSS RESET
+================================================================================ */
+    color: #8f8f8f;
+}
+/* ARTICLE SLIDER
+----------------------------------------------------------------------------- */
+.caroufredsel_wrapper{
+    width: 100% !important;
+}
+
+.carousel-li > li{
+    width: 400px;
+    margin-right: 0;
+    list-style-type:none;
+}
+
+.carousel-pagination {
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+}
+
+.carousel-pagination a {
+    background: url(../images/btn.png) no-repeat;
+    width: 19px;
+    height: 5px;
+    margin: 10px 0px 5px 50px;
+    display: inline-block;
+}
+
+.carousel-pagination a.selected {
+    background: url(../images/btn-active.png) no-repeat;
+    cursor: default;
+}
+
+.carousel-pagination a span {
+    display: none;
+}
+
+.testimonial-image {
+
+}
+
+testimonial-message {
+
+}
