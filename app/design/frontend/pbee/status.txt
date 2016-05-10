@@ -82,7 +82,7 @@ This was a tough one, some of the examples and extensions were tried but they di
 git init
 git add *
 git add app/design/frontend/pbee/status.txt
-check out git -A
+git add -A # adds all changes and new files recursively.
 git status
 git remote add origin https://github.com/shriekz/pbee.git
 git push -u origin master
